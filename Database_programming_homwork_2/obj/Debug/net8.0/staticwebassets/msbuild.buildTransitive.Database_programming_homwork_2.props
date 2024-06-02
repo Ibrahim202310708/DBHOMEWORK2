@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Database_programming_homwork_2.props" />
+</Project>

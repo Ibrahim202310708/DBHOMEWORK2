@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Database_programming_homwork_2.props" />
+</Project>

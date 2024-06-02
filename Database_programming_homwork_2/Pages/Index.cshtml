@@ -1,0 +1,22 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div>
+    <h1>Welcome</h1>
+
+    <p>Insert/Delete page:</p>
+
+    <form name="Pinfo" id="Pinfo" method="post">
+        Name    <input name="Name" type="text" class="form-control input-lg" required />
+        Mobile  <input name="Mobile" type="text" class="form-control input-lg" required />
+        Address  <input name="Address" type="text" class="form-control input-lg" required />
+
+        <input id="Save" type="submit" value="Save" class="btn btn-info" />
+        <input id="Delete" type="button" value="Delete" class="btn btn-info" onclick="deleteItem()" />
+    </form>
+
+    <a href="/ViewData" class="btn btn-primary mt-3">View Data</a>
+</div>
